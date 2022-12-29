@@ -17,17 +17,17 @@
       <div class="header__square-pic"></div>
     </header>
     <main class="content">
-      <section class="description">
-        <div class="two-columns">
+      <section class="description" aria-label="две колонки">
+        <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
             <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
-      <section class="digits">
+      <section class="digits" aria-label="таблица">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
         <div class="table">
@@ -72,7 +72,7 @@
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a href="#" class="feynman__link">Подробнее &#8594;</a>
       </section>
-      <section class="kaufman">
+      <section class="kaufman" aria-label="таблица">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">От Джоша Кауфмана</p>
         <div class="table table_theme_dark">
@@ -117,7 +117,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-        <img src="./images/kaufman-triangle.svg" alt="Треугольник" class="kaufman__triangle">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
@@ -126,22 +126,22 @@
           <img src="./images/logo_place_footer.svg" alt="Логотип Практикума" class="logo logo_place_footer">
           <p class="footer__author">&copy; Жданов Сергей</p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
             <li><a class="footer__column-link" href="#">Главная</a></li>
             <li><a class="footer__column-link" href="#">Концепция</a></li>
             <li><a class="footer__column-link" href="#">Наставники</a></li>
           </ul>
-        </div>
-        <div class="footer__column footer__column_content_social">
+        </nav>
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="#"><img src="./images/youtube-icon.svg" alt="Логотип ютуба" class="footer__column-logo">Youtube</a></li>
-            <li><a class="footer__column-link" href="#"><img src="./images/vk_color_white.svg" alt="Логотип Вконтакте" class="footer__column-logo">Вконтакте</a></li>
-            <li><a class="footer__column-link" href="#"><img src="./images/tiktok-icon.svg" alt="Логотип Тиктока" class="footer__column-logo">TikTok</a></li>
+            <li><a class="footer__column-link" href="#" target="_blank"><img src="./images/youtube-icon.svg" alt="Логотип ютуба" class="footer__column-logo">Youtube</a></li>
+            <li><a class="footer__column-link" href="#" target="_blank"><img src="./images/vk_color_white.svg" alt="Логотип Вконтакте" class="footer__column-logo" >Вконтакте</a></li>
+            <li><a class="footer__column-link" href="#" target="_blank"><img src="./images/tiktok-icon.svg" alt="Логотип Тиктока" class="footer__column-logo">TikTok</a></li>
           </ul>
-        </div>
+        </nav>
       </div>      
     </footer>
   </div>
